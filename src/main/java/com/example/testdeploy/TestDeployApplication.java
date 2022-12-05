@@ -19,7 +19,7 @@ public class TestDeployApplication {
 		return "Welcome to my API";
 	}
 
-	@GetMapping("/welcome")
+	@GetMapping("/names")
 	public List<String> showNames(){
 		return List.of("Rinata", "Yura", "Shiry", "Ron", "Sparky");
 	}
